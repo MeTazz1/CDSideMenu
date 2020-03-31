@@ -22,18 +22,18 @@ CDSideMenu is a highly customizable side menu library created for fun, for you a
 
 ## Customizable properties
 
-- navigationBarHidden: #### Will hide the navigationBar. If hidden, a open/close button will be added
-- accountViewHidden: #### Will hide the side menu account view, containing the user profile picture, the username, the account and logout buttons: The side menu backgroundColor
-- menuBackgroundColor: The side menu backgroundColor
-- menuForegroundColor: The side menu texts and SF images color
-- viewsBackgroundColor: The content views' backgroundColor
-- menuFont: The side menu texts font
-- menuButtonSize: The open/close menu button size
-- menuSizeFactor: The menu size factor, 1 being half screen size
-- openedMenuButtonSFImage: The SF image used as the opened side menu button icon
-- closedMenuButtonSFImage: The SF image used as the closed side menu button icon
-- menuItems: The list of items to display in the side menu
-- userData: The ObservableObject user account data, optional
+- navigationBarHidden: *Will hide the navigationBar. If hidden, a open/close button will be added*
+- accountViewHidden: *Will hide the side menu account view, containing the user profile picture, the username, the account and logout buttons: The side menu backgroundColor*
+- menuBackgroundColor: *The side menu backgroundColor*
+- menuForegroundColor: *The side menu texts and SF images color*
+- viewsBackgroundColor: *The content views' backgroundColor*
+- menuFont: *The side menu texts font*
+- menuButtonSize: *The open/close menu button size*
+- menuSizeFactor: *The menu size factor, 1 being half screen size*
+- openedMenuButtonSFImage: *The SF image used as the opened side menu button icon*
+- closedMenuButtonSFImage: *The SF image used as the closed side menu button icon*
+- menuItems: *The list of items to display in the side menu*
+- userData: *The ObservableObject user account data, optional*
 
 ## Requirements
 
@@ -43,11 +43,11 @@ CDSideMenu is a highly customizable side menu library created for fun, for you a
 
 ## Installation
 
-At the moment, the library is available only though Github. CocoaPods will arrive later.
+At the moment, the library is only available though Github. A Pod will arrive later.
 
 #### Git
 
-You can use [Git](https://git-scm.com/) to install `CDSideMenu` by cloning the example project:
+You can use [Git](https://git-scm.com/) to clone `CDSideMenu` and its example project:
 
 ```git
 git clone https://github.com/christophedellac/CDSideMenu
@@ -60,11 +60,11 @@ git clone https://github.com/christophedellac/CDSideMenu
 
 ## Usage
 
-To get the full benefits import `CDSideMenu`, don't forget to check out the CDSideMenuExample XCode project. 
+To get the full benefits of `CDSideMenu`, don't forget to check out the CDSideMenuExample XCode project. 
 
 After adding the source folder into your project, you can start using `CDSideMenu` by following those 3 steps:
 
-[x] Step 1 (optional): make your main view conform to CDSideMenuConfigurator protocol. 
+- [x] Step 1 (optional): make your main view conform to CDSideMenuConfigurator protocol. 
 ``` swift
 public protocol CDSideMenuConfigurator {
     /// Create the CDSideMenu configuration in this function
@@ -73,17 +73,18 @@ public protocol CDSideMenuConfigurator {
     func didLogout(_ notification: Notification)
 }
 ```
-[x] Step 2 (required): configure your `CDSideMenu` by creating a CDSideMenuConfiguration object and add your menu items. Refer to the example that you can find in ContentView.swift, within the example project. 
+- [x] Step 2 (required): configure your `CDSideMenu` by creating a CDSideMenuConfiguration object and add your menu items and specific configuration to it. Refer to the example that you can find in the ContentView.swift file in the example project. 
 ``` swift
 struct ContentView: View, CDSideMenuConfigurator {
     
     /// Conforms to CDSideMenuConfigurator protocol
     func createConfiguration() -> CDSideMenuConfiguration { 
+    // Create your configuration here
     }
 }
 ```
 
-[x] Step 3 (required): create a NavigationLink to `CDSideMenuMainView`, which will become your main view, containing your menu items and the side menu.
+- [x] Step 3 (required): create a NavigationLink to `CDSideMenuMainView`, which will become your main view, containing your menu items and the side menu.
 
 ``` swift
 NavigationLink(destination: CDSideMenuMainView()
@@ -93,11 +94,11 @@ NavigationLink(destination: CDSideMenuMainView()
                 })
 ```
 
-## Your thoughts
+## License
 
-I would love you to share your thoughts regarding this project and share any ideas for its future.  `CDSideMenu` has no ``LICENSE``.
+`CDSideMenu` has no ``LICENSE``. Feel free to use, modify this library as you wish, and do not forget to share your opinion :)
 
 ## Meta
 
-Christophe Dellac
-[https://github.com/christophedellac/CDSideMenu](https://github.com/christophedellac/CDSideMenu)
+Christophe Dellac - [https://github.com/christophedellac/](https://github.com/christophedellac)
+CDSideMenu - [https://github.com/christophedellac/CDSideMenu](https://github.com/christophedellac/CDSideMenu)
