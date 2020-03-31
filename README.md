@@ -55,25 +55,17 @@ git clone https://github.com/christophedellac/CDSideMenu
 
 #### Manually
 
-1. Download and drop the `CDSideMenu` (CDSideMenu/CDSideMenu) folder in your project.  
+1. Download and drop the `CDSideMenuSrc` (CDSideMenu/CDSideMenuSrc) folder in your project.  
 2. Congratulations!  
 
 ## Usage
 
 To get the full benefits of `CDSideMenu`, don't forget to check out the CDSideMenuExample XCode project. 
 
-After adding the source folder into your project, you can start using `CDSideMenu` by following those 3 steps:
+After adding the source folder into your project, you can start using `CDSideMenu` by following those 2 steps:
 
-- [x] **Step 1 (optional): make your main view conform to CDSideMenuConfigurator protocol.**
-``` swift
-public protocol CDSideMenuConfigurator {
-    /// Create the CDSideMenu configuration in this function
-    func createConfiguration() -> CDSideMenuConfiguration
-    /// Reuse this method as an observer, observing the CDSideMenuNotification.logout.rawValue notification name
-    func didLogout(_ notification: Notification)
-}
-```
-- [x] **Step 2 (required): configure your `CDSideMenu` by creating a CDSideMenuConfiguration object and add your menu items and specific configuration to it. Refer to the example that you can find in the ContentView.swift file in the example project.**
+- [x] **Step 1: configure your `CDSideMenu` by creating your views and a CDSideMenuConfiguration object. Add your menu items and specific configuration to it. Refer to the example that you can find in the ContentView.swift file in the example project.**
+
 ``` swift
 struct ContentView: View, CDSideMenuConfigurator {
     
@@ -84,7 +76,7 @@ struct ContentView: View, CDSideMenuConfigurator {
 }
 ```
 
-- [x] **Step 3 (required): create a NavigationLink to `CDSideMenuMainView`, which will become your main view, containing your menu items and the side menu.**
+- [x] **Step 2: create a NavigationLink to `CDSideMenuMainView`, which will become your main view, containing your menu items and the side menu.**
 
 ``` swift
 NavigationLink(destination: CDSideMenuMainView()
