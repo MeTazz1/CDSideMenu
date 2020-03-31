@@ -8,10 +8,8 @@
 import SwiftUI
 
 public protocol CDSideMenuConfigurator {
-    
     /// Create the CDSideMenu configuration in this function
     func createConfiguration() -> CDSideMenuConfiguration
-    
     /// Reuse this method as an observer, observing the CDSideMenuNotification.logout.rawValue notification name
     func didLogout(_ notification: Notification)
 }

@@ -80,7 +80,7 @@
 		8385358F2433BBEF0076A7CA = {
 			isa = PBXGroup;
 			children = (
-				838537652433BCDE0076A7CA /* CDSideMenu */,
+				838537652433BCDE0076A7CA /* CDSideMenuSrc */,
 				8385359A2433BBEF0076A7CA /* CDSideMenuExample */,
 				838535992433BBEF0076A7CA /* Products */,
 			);
@@ -117,7 +117,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		838537652433BCDE0076A7CA /* CDSideMenu */ = {
+		838537652433BCDE0076A7CA /* CDSideMenuSrc */ = {
 			isa = PBXGroup;
 			children = (
 				838537782433BD080076A7CA /* Extensions */,
@@ -126,7 +126,7 @@
 				8385377B2433BD080076A7CA /* Protocols */,
 				838537662433BD080076A7CA /* Views */,
 			);
-			path = CDSideMenu;
+			path = CDSideMenuSrc;
 			sourceTree = "<group>";
 		};
 		838537662433BD080076A7CA /* Views */ = {
@@ -492,7 +492,7 @@
 				838535AB2433BBF20076A7CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		838535AC2433BBF20076A7CA /* Build configuration list for PBXNativeTarget "CDSideMenuExample" */ = {
 			isa = XCConfigurationList;
@@ -501,7 +501,7 @@
 				838535AE2433BBF20076A7CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
