@@ -3,7 +3,7 @@
 
 CDSideMenu is a highly customizable side menu library made for SwiftUI for you apps. 
 
-![](small_cdsidedemo.gif) ![](small_cdsidedemo2.gif) ![](small_cdsidedemo3.gif)
+![](demo_basic.gif) ![](demo_favorite.gif) ![](demo_custom.gif)
 
 ## Features
 
