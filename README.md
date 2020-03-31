@@ -66,16 +66,6 @@ After adding the source folder into your project, you can start using `CDSideMen
 
 - [x] **Step 1: configure your `CDSideMenu` by creating your views and a CDSideMenuConfiguration object. Add your menu items and specific configuration to it. Refer to the example that you can find in the ContentView.swift file in the example project.**
 
-``` swift
-struct ContentView: View, CDSideMenuConfigurator {
-    
-    /// Conforms to CDSideMenuConfigurator protocol
-    func createConfiguration() -> CDSideMenuConfiguration { 
-    // Create your configuration here
-    }
-}
-```
-
 - [x] **Step 2: create a NavigationLink to `CDSideMenuMainView`, which will become your main view, containing your menu items and the side menu.**
 
 ``` swift
