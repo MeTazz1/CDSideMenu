@@ -8,15 +8,12 @@
 
 import SwiftUI
 
-#warning("Step 1: Import CDSideMenu")
-import CDSideMenu
-
-#warning("Step 2: Add CDSideMenuConfigurator protocol (optional)")
+#warning("Step 1 (optional): Add CDSideMenuConfigurator protocol to conform the createConfiguration and didLogout method")
 struct ContentView: View, CDSideMenuConfigurator {
     
     /// Conforms to CDSideMenuConfigurator protocol
     func createConfiguration() -> CDSideMenuConfiguration {
-        #warning("Step 3: Configure your CDSideMenu")
+        #warning("Step 2 (required): Configure your CDSideMenu")
 
         /// Creating the left menu items, with SF Symbols for images
         var menuItems = [CDSideMenuItem]()
@@ -69,7 +66,7 @@ struct ContentView: View, CDSideMenuConfigurator {
                 Text("Welcome, my friend!")
                     .font(.system(.subheadline, design: .monospaced))
                 
-                #warning("Step 4: Create a NavigationLink to push the CDSideMenuMainView (required)")
+                #warning("Step 3 (required): Create a NavigationLink to push the CDSideMenuMainView")
                 NavigationLink(destination: CDSideMenuMainView()
                     .environmentObject(createConfiguration()), label: {
                         Text("Now, click here ;) ")
