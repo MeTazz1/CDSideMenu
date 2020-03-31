@@ -11,7 +11,7 @@
 
 One to two paragraph statement about your product and what it does.
 
-![](header.png)
+![](cdsidemenu_demo.gif)
 
 ## Features
 
