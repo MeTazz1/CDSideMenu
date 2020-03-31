@@ -1,33 +1,56 @@
-# Product Name
-> Short blurb about what your product does.
+# CDSideMenu
+> An elegant side menu for you app, made with love and SwiftUI.
 
 [![Swift Version][swift-image]][swift-url]
 [![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-One to two paragraph statement about your product and what it does.
+CDSideMenu is a highly customizable side menu library made for SwiftUI for you apps. 
 
-![](header.png)
+![](small_cdsidedemo.gif)
 
 ## Features
 
-- [x] Feature 1
-- [x] Feature 2
-- [x] Feature 3
-- [x] Feature 4
-- [x] Feature 5
+- [x] An animated Side Menu with your own menu item
+- [x] A high level of configuration to fit your app design
+- [x] 3 pre-configured style for your convenience
+- [x] A verbose configurator to let you know if your current configuration is right, or not
+- [x] An observable UserData class model that you can extend to add your own properties
+- [x] A list of example views to illustrate the usage of this library
+
+## Coming soon features
+
+- [x] Side menu opening alignment (left, right)
+- [x] Landscape mode
+- [x] CocoaPods integration
+
+
+## Customizable properties
+
+- [x] navigationBarHidden: Will hide the navigationBar. If hidden, a open/close button will be added
+- [x] accountViewHidden: Will hide the side menu account view, containing the user profile picture, the username, the account and logout buttons: The side menu backgroundColor
+- [x] menuBackgroundColor: The side menu backgroundColor
+- [x] menuForegroundColor: The side menu texts and SF images color
+- [x] viewsBackgroundColor: The content views' backgroundColor
+- [x] menuFont: The side menu texts font
+- [x] menuButtonSize: The open/close menu button size
+- [x] menuSizeFactor: The menu size factor, 1 being half screen size
+- [x] openedMenuButtonSFImage: The SF image used as the opened side menu button icon
+- [x] closedMenuButtonSFImage: The SF image used as the closed side menu button icon
+- [x] menuItems: The list of items to display in the side menu
+- [x] userData: The ObservableObject user account data, optional
 
 ## Requirements
 
-- iOS 8.0+
-- Xcode 7.3
+- iOS 13 or above
+- Swift 5.2
+- Xcode 11.4
 
 ## Installation
 
+At the moment, the library is not available through CocoaPods yet. 
 #### CocoaPods
 You can use [CocoaPods](http://cocoapods.org/) to install `YourLibrary` by adding it to your `Podfile`:
 
