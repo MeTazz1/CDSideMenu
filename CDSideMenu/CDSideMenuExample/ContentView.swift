@@ -45,7 +45,7 @@ struct ContentView: View, CDSideMenuConfigurator {
                                                userData: CDUserData(userName: "Chris", imageUrl: "turtlerock"))
             
             /// Choice #3 : Custom configuration
-//             return try CDSideMenuConfiguration(navigationBarHidden: true, accountViewHidden: false, menuBackgroundColor: .cdDarkGray, menuForegroundColor: .white, viewsBackgroundColor: .cdOffGreen, menuFont: Font.system(size: 15), menuButtonSize: 32, menuSizeFactor: 1.5, openedMenuButtonSFImage: "chevron.right.2", closedMenuButtonSFImage: "chevron.right.2", menuItems: menuItems, userData: CDUserData(userName: "Chris", imageUrl: "turtlerock"))
+            //  return try CDSideMenuConfiguration(navigationBarHidden: true, accountViewHidden: false, menuBackgroundColor: .cdDarkGray, menuForegroundColor: .white, viewsBackgroundColor: .cdOffGreen, menuFont: Font.system(size: 15), menuButtonSize: 32, menuSizeFactor: 1.5, openedMenuButtonSFImage: "chevron.right.2", closedMenuButtonSFImage: "chevron.right.2", menuItems: menuItems, userData: CDUserData(userName: "Chris", imageUrl: "turtlerock"))
         }
         catch {
             print("CDSideMenu configuration failed. Please check your error below:")
