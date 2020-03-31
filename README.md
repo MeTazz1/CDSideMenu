@@ -1,7 +1,7 @@
 # CDSideMenu
 > An elegant side menu for you app, made with love and SwiftUI.
 
-CDSideMenu is a highly customizable side menu library made for SwiftUI for you apps. 
+CDSideMenu is a highly customizable side menu library created for fun, for you apps. 
 
 ![](demo_basic.gif) ![](demo_favorite.gif) ![](demo_custom.gif)
 
@@ -9,7 +9,7 @@ CDSideMenu is a highly customizable side menu library made for SwiftUI for you a
 
 - [x] An animated Side Menu with your own menu item
 - [x] A high level of configuration to fit your app design
-- [x] 3 pre-configured style for your convenience
+- [x] 3 pre-configured styles for your convenience
 - [x] A verbose configurator to let you know if your current configuration is right, or not
 - [x] An observable UserData class model that you can extend to add your own properties
 - [x] A list of example views to illustrate the usage of this library
@@ -22,8 +22,8 @@ CDSideMenu is a highly customizable side menu library made for SwiftUI for you a
 
 ## Customizable properties
 
-- navigationBarHidden: Will hide the navigationBar. If hidden, a open/close button will be added
-- accountViewHidden: Will hide the side menu account view, containing the user profile picture, the username, the account and logout buttons: The side menu backgroundColor
+- navigationBarHidden: #### Will hide the navigationBar. If hidden, a open/close button will be added
+- accountViewHidden: #### Will hide the side menu account view, containing the user profile picture, the username, the account and logout buttons: The side menu backgroundColor
 - menuBackgroundColor: The side menu backgroundColor
 - menuForegroundColor: The side menu texts and SF images color
 - viewsBackgroundColor: The content views' backgroundColor
