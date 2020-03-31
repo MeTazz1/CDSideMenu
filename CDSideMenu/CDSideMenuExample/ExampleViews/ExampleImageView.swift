@@ -11,7 +11,7 @@ import SwiftUI
 struct ExampleImageView: View {
     var body: some View {
         VStack(alignment: .center) {
-            Image("background1")
+            Image("background")
                 .resizable()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         }

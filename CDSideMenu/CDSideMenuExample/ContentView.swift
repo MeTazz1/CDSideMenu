@@ -38,14 +38,14 @@ struct ContentView: View, CDSideMenuConfigurator {
                                                menuBackgroundColor: .cdDarkGray,
                                                menuForegroundColor: .white,
                                                viewsBackgroundColor: .cdOffGreen,
-                                               menuFont: Font.system(.body, design: .monospaced),
+                                               menuFont: Font.system(.body, design: .rounded),
                                                menuButtonSize: 28,
                                                menuSizeFactor: 1.1,
                                                menuItems: menuItems,
                                                userData: CDUserData(userName: "Chris", imageUrl: "turtlerock"))
             
             /// Choice #3 : Custom configuration
-            // return try CDSideMenuConfiguration(navigationBarHidden: false, accountViewHidden: false, menuBackgroundColor: .cdDarkGray, menuForegroundColor: .white, viewsBackgroundColor: .cdOffGreen, menuFont: Font.system(size: 15), menuButtonSize: 28, menuSizeFactor: 1.2, openedMenuButtonSFImage: "chevron.left.circle.fill", closedMenuButtonSFImage: "chevron.left.circle", menuItems: menuItems, userData: CDUserData(userName: "Chris", imageUrl: "turtlerock"))
+//             return try CDSideMenuConfiguration(navigationBarHidden: true, accountViewHidden: false, menuBackgroundColor: .cdDarkGray, menuForegroundColor: .white, viewsBackgroundColor: .cdOffGreen, menuFont: Font.system(size: 15), menuButtonSize: 32, menuSizeFactor: 1.5, openedMenuButtonSFImage: "chevron.right.2", closedMenuButtonSFImage: "chevron.right.2", menuItems: menuItems, userData: CDUserData(userName: "Chris", imageUrl: "turtlerock"))
         }
         catch {
             print("CDSideMenu configuration failed. Please check your error below:")
@@ -74,6 +74,8 @@ struct ContentView: View, CDSideMenuConfigurator {
                 })
             }
             .navigationBarTitle("CDSideMenu Example", displayMode: .inline)
+            // Enable/Disable this if you want a navigationBar, or not :)
+            //.navigationBarHidden(true)
         }
     }
 }
