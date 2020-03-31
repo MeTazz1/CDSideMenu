@@ -27,7 +27,6 @@
 		838537882433BD080076A7CA /* CDViewsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838537772433BD080076A7CA /* CDViewsModifier.swift */; };
 		838537892433BD080076A7CA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838537792433BD080076A7CA /* String.swift */; };
 		8385378A2433BD080076A7CA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385377A2433BD080076A7CA /* Color.swift */; };
-		8385378B2433BD080076A7CA /* CDSideMenuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385377C2433BD080076A7CA /* CDSideMenuConfigurator.swift */; };
 		838537922433BD580076A7CA /* ExampleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385378D2433BD580076A7CA /* ExampleImageView.swift */; };
 		838537932433BD580076A7CA /* ExampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385378E2433BD580076A7CA /* ExampleListView.swift */; };
 		838537942433BD580076A7CA /* ExampleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8385378F2433BD580076A7CA /* ExampleHomeView.swift */; };
@@ -58,7 +57,6 @@
 		838537772433BD080076A7CA /* CDViewsModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDViewsModifier.swift; sourceTree = "<group>"; };
 		838537792433BD080076A7CA /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		8385377A2433BD080076A7CA /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		8385377C2433BD080076A7CA /* CDSideMenuConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDSideMenuConfigurator.swift; sourceTree = "<group>"; };
 		8385378D2433BD580076A7CA /* ExampleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleImageView.swift; sourceTree = "<group>"; };
 		8385378E2433BD580076A7CA /* ExampleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleListView.swift; sourceTree = "<group>"; };
 		8385378F2433BD580076A7CA /* ExampleHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHomeView.swift; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				838537782433BD080076A7CA /* Extensions */,
 				838537702433BD080076A7CA /* Models */,
 				838537752433BD080076A7CA /* Modifiers */,
-				8385377B2433BD080076A7CA /* Protocols */,
 				838537662433BD080076A7CA /* Views */,
 			);
 			path = CDSideMenuSrc;
@@ -193,14 +190,6 @@
 				8385377A2433BD080076A7CA /* Color.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		8385377B2433BD080076A7CA /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				8385377C2433BD080076A7CA /* CDSideMenuConfigurator.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		8385378C2433BD580076A7CA /* ExampleViews */ = {
@@ -304,7 +293,6 @@
 				838537802433BD080076A7CA /* CDSideMenuItemList.swift in Sources */,
 				838537872433BD080076A7CA /* CDSideMenuViewModifiers.swift in Sources */,
 				8385377D2433BD080076A7CA /* CDSideMenuRow.swift in Sources */,
-				8385378B2433BD080076A7CA /* CDSideMenuConfigurator.swift in Sources */,
 				838537882433BD080076A7CA /* CDViewsModifier.swift in Sources */,
 				838537842433BD080076A7CA /* CDSideMenuConfiguration.swift in Sources */,
 				838537892433BD080076A7CA /* String.swift in Sources */,

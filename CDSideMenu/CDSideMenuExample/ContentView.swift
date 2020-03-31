@@ -8,8 +8,7 @@
 
 import SwiftUI
 
-#warning("Step 1 (optional): Add CDSideMenuConfigurator protocol to conform the createConfiguration and didLogout method")
-struct ContentView: View, CDSideMenuConfigurator {
+struct ContentView: View {
     
     /// Conforms to CDSideMenuConfigurator protocol
     func createConfiguration() -> CDSideMenuConfiguration {
