@@ -1,15 +1,9 @@
 # CDSideMenu
 > An elegant side menu for you app, made with love and SwiftUI.
 
-[![Swift Version][swift-image]][swift-url]
-[![Build Status][travis-image]][travis-url]
-[![License][license-image]][license-url]
-[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
 CDSideMenu is a highly customizable side menu library made for SwiftUI for you apps. 
 
-![](small_cdsidedemo.gif)
+![](small_cdsidedemo.gif) ![](small_cdsidedemo2.gif) ![](small_cdsidedemo3.gif)
 
 ## Features
 
